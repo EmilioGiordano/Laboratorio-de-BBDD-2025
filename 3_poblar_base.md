@@ -175,3 +175,14 @@ INSERT INTO contiene (helado, pedido, cantidad, precio) VALUES
 (27, 10, 1, 120),
 (28, 10, 1, 120);
 ```
+
+### Prepara
+```sql
+INSERT INTO prepara (planta, gusto) VALUES
+(3, 1),
+(3, 2),
+(4, 3),
+(4, 4),
+(5, 5),
+(5, 6);
+```
