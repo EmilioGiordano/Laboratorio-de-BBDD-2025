@@ -52,7 +52,7 @@ CREATE TABLE public.clientes (
                 nombre_c VARCHAR NOT NULL,
                 cuit VARCHAR(13) NOT NULL,
                 email VARCHAR(255) NOT NULL,
-                telefon VARCHAR(255) NOT NULL,
+                telefono VARCHAR(255) NOT NULL,
                 direccion VARCHAR(255) NOT NULL,
                 fecha_alta DATE NOT NULL,
                 CONSTRAINT idcliente PRIMARY KEY (idcliente)
