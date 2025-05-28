@@ -124,3 +124,12 @@ INSERT INTO repartidores(idrepartidor, turno) VALUES
 (10, 'TARDE'),
 (11, 'TARDE');
 ```
+
+### Planta
+```sql
+INSERT INTO planta (idplanta, turno) VALUES
+(2,'MAÑANA'),
+(3,'MAÑANA'),
+(4,'TARDE'),
+(5,'NOCHE');
+```
