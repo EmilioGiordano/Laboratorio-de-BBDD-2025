@@ -116,3 +116,11 @@ INSERT INTO administrativos (idadmin, titulo, turno) VALUES
 (6,'Título Secundario','MAÑANA'),
 (7,'Título Secundario','TARDE ');
 ```
+
+### Repartidores
+```sql
+INSERT INTO repartidores(idrepartidor, turno) VALUES
+(9,'MAÑANA'),
+(10, 'TARDE'),
+(11, 'TARDE');
+```
