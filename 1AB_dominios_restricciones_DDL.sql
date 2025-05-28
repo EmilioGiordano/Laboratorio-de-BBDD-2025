@@ -1,3 +1,5 @@
+-- Corrijo dominio: Pasó de ('125','250', '500', '750', '1000') a ('125','250', '500', '1000')
+-- La consigna de no incluye al 750 en el dominio
 CREATE DOMAIN gramos AS CHAR(4)
 CHECK(
    VALUE IN ('125','250', '500', '1000')
@@ -5,10 +7,14 @@ CHECK(
 
 ALTER TABLE helados ALTER COLUMN peso_gramos TYPE gramos;
 
+
+-- Corrijo dominio: Pasó de (1,2,3,4) a (0,1,2,3,4)
+-- La consigna incluye al 0
 CREATE DOMAIN ingredientes AS INTEGER
 CHECK(
    VALUE IN (0,1,2,3,4)
 );
+
 
 ALTER TABLE helados ALTER COLUMN cant_ingredientes TYPE ingredientes;
 
