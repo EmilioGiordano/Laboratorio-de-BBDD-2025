@@ -14,7 +14,6 @@ INSERT INTO gustos(nombre_g,descripcion) VALUES
 ```
 
 ### Helados
-
 ```sql
 INSERT INTO helados (codigo_h, nombre_h, peso_gramos, fecha_vencimiento, precio, cant_ingredientes) VALUES
 ('H00019','UN GUSTO CHOCOLATE','1000','01/12/2023','150','1'),
